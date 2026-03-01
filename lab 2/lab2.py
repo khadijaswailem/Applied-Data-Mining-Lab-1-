@@ -203,7 +203,8 @@ def triage_email_v3(email_text: str) -> dict:
     return ticket
 
 
-#JST TO RUN EVERYTHING AND SAVE RESULTS IN A JSON FILE
+
+#JUST TO RUN EVERYTHING AND SAVE RESULTS IN A JSON FILE
 def run_all():
     results = {}
 
