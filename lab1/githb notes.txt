@@ -1,0 +1,81 @@
+blob:this is the file json,python,txt etc and its meta data 
+tree:directory 
+commit:defines what the update is and says what it is and a pointer to the file , i press commit and type a message and request for my changes to be saved 
+
+note: alg that hashes SHA 1 40 hexadecimals , when i update the file and it has a new hash different 
+from the old file hash it gives a notification that a change has happened , a change even as small as clicking enter and saving
+
+three tree architecture:
+working tree/directory:
+staging: if i want to go back and change smth before committing at the git repo 
+git repo
+
+
+
+inside empty folder:
+
+echo "Hello ,Git" >> normally creating a file 
+
+git init keda initializing repo to commit the changes to 
+
+
+U= untracked and not in the repo
+
+T can either be baa U el unmodified or M for modified 
+
+Git status 
+
+git add filename moves the file to the staging area 
+
+git add . adds all the files 
+
+
+NEVER ADD A SECRET KEY TO GITHUB
+
+To remove git rm -- cached filename 
+
+to move the file to the git repo
+
+git commit -m "file1 added" this is just a message to do this must have already added it 
+
+
+git config --global user.email mail
+
+
+
+git commit -am " message" will go to the gitrepo aalatool , as if add and -m at the same time
+
+
+get diff shows us eh el changes what files and what lines, shows diff between working tree and staging area
+ a plus sign means smth we added and a - means smth we removed 
+
+get diff --staged to get difference between staging and the repository  
+
+the git log will show all the commits, the HEAD -> main is where the last commit is 
+
+to create a new branch we create write git branch "name"
+
+then to switch to that branch we write git switch "name"
+
+then after we git merge to merge the new branch with the main
+
+to go back to a previous commit write git reset --hard to apply directly everywhere 
+
+can add after the hard HEAD~and then the number etc HEAD~1 goes back w1 step (goes back only)
+
+git reflog numbers/index the commits so we can use them fel HEAD~number 
+
+can also do HEAD@{12} thats where we will go back or move front and will see the change in the file directly
+
+boiler plate is a template that we will be using for our assignments 
+
+in logic.py we pt the functionalities we will use later on and will actally import it in the main.py
+
+we put the things we need to download in the requirements.txt 
+
+to activate the venv : .venv\Scripts\activate.bat 
+to exit it :deactivate
+
+pip install -r requirements.txt to install the things in the requirements file
+
+pip list to make sure they got installed
